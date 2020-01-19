@@ -4,7 +4,7 @@
 Summary:	Dictionaries for SKK (Simple Kana-Kanji conversion program)
 Name:		skkdic
 Version:	%{cvsDATE}
-Release:	5.T%{cvsTIME}%{?dist}.1
+Release:	6.T%{cvsTIME}%{?dist}
 License:	GPLv2+
 Group:		System Environment/Libraries
 # To create source tarball, use Source10
@@ -55,6 +55,9 @@ gzip -9 ChangeLog
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 20130104-6.T1435
+- Mass rebuild 2013-12-27
+
 * Mon Jul 29 2013 Daiki Ueno <dueno@redhat.com> - 20130104-5.T1435.1
 - drop buildroot cleanup
 - remove %defattr(-,root,root,-) in %%files
